@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class UserInterceptor implements HandlerInterceptor {  
 	private static final Logger log = LoggerFactory.getLogger(UserInterceptor.class);
 	
-	//아래 3개의 메소드가 동작하는 시점은 다릅니다.
+	//아래 3개의 인터셉트 메소드가 동작하는 시점은 다릅니다.
 	
 	@Override
 	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object arg2, Exception arg3)
